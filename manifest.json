@@ -1,0 +1,28 @@
+{
+    "name": "Velltrix AdBlock",
+    "version": "0.5",
+    "description": "Velltrix AdBlocker without any data tracing",
+    "permissions": [
+      "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    },
+    
+    "icons": {
+      "16": "icons/logo_16x16.png",
+      "48": "icons/logo_48x48.png",
+      "128": "icons/logo_128x128.png"
+    },
+    "manifest_version": 3
+  }
+  
